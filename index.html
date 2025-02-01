@@ -29,7 +29,7 @@
                         clifford: '#da373d',
                         primary: '#179800',
                         secondary: '#EFEBE3',
-                        bgClr: "#FFF9F4"
+                        bgClr: "#EFEBE3"
                     },
                     fontFamily: {
                         'sora': ['sora', 'system-ui',],
@@ -330,6 +330,60 @@
             </div>
         </section>
     </main>
+
+    <section
+        class=" bg-primary  mt-[22.5rem] relative h-[700px]  md:h-[400px] flex flex-col items-center justify-center">
+
+        <div
+            class=" w-[90%]  md:container absolute top-0 -translate-y-1/2 mx-auto bg-bgClr flex  items-center justify-center gap-10 p-5 lg:py-8 lg:px-10 rounded-2xl">
+
+            <div class=" w-full lg:w-[80%] flex flex-col md:flex-row items-center gap-5 lg:gap-20">
+                <div>
+                    <img class="hidden lg:block" src="c2-assets/vegetable-busket.png" alt="" width="100%">
+                    <img class="lg:hidden" src="c2-assets/vegetable-busket.png" alt="">
+                </div>
+                <div class="space-y-4 text-center md:text-left">
+                    <div>
+                        <h2 class="text-3xl font-bold font-primary">Get Grocery News!</h2>
+                        <p class="mt-2">Exclusive training tips, ticks, product deals and more.</p>
+                    </div>
+                    <input type="text" placeholder="Enter email..."
+                        class="input outline-none focus:outline-none bg-white w-full max-w-xs" />
+                    <button class="hoverEeffect btn bg-[#FFDC26] hover:bg-[#FFDC26]">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container text-white mx-auto footer absolute bottom-0   p-10 ">
+            <nav>
+
+                <div>
+                    <div class="flex items-center gap-2">
+                        <img class="" src="c2-assets/logo-footer.png" alt="">
+                    </div>
+                </div>
+                <p class="max-w-[400px] mt-2">Discover a world of treats, toys, and essentials handpicked for your furry
+                    friends</p>
+            </nav>
+            <nav>
+
+                <a class="link link-hover">Product</a>
+                <a class="link link-hover">Services</a>
+                <a class="link link-hover">Contact us</a>
+
+            </nav>
+            <nav>
+                <h6 class="footer-title">Follow us</h6>
+                <div class="flex items-center gap-4">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </nav>
+        </footer>
+    </section>
+
 </body>
 
 </html>
