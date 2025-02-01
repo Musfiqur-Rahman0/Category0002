@@ -27,7 +27,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        primary: '#FFDC26',
+                        primary: '#179800',
                         secondary: '#F9DF8A',
                         bgClr: "#FFF9F4"
                     },
@@ -44,7 +44,35 @@
 
 <body class="font-sora">
     <header>
-        hellow world!
+        <nav class="navbar bg-base-100 border-b-green-400">
+            <div class="navbar-start">
+                <img class="hidden sm:block" src="c2-assets/logo-header.png" alt="">
+                <img class="sm:hidden" src="c2-assets/Group (6).png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Product</a></li>
+                    <li>
+                        <details>
+                            <summary>Services</summary>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a>Product</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end space-x-3">
+                <i class="hidden sm:block cursor-pointer text-3xl fa-solid fa-magnifying-glass"></i>
+                <i class="hidden sm:block cursor-pointer text-3xl fa-solid fa-cart-shopping"></i>
+                <a
+                    class="hidden sm:flex btn btn-outline border-primary bg-transparent hover:border-none hover:bg-primary hover:text-white font-semibold">Button</a>
+                <a class="hidden sm:flex btn bg-primary text-white hover:bg-primary font-semibold">Button</a>
+                <i class="sm:hidden fa-solid fa-bars cursor-pointer"></i>
+            </div>
+        </nav>
 
     </header>
 </body>
