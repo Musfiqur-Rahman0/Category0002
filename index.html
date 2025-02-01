@@ -79,7 +79,7 @@
         <!-- hero section -->
         <section id="bannerSection" class="bg-gradient-to-t from-[#EFEBE3] to-transparent mt-10 lg:mt-20">
             <div class="container mx-auto flex flex-col items-center justify-center  text-center p-3 sm:p-0">
-                <div class="xl:w-1/2">
+                <div clxl:ass="xl:w-1/2">
                     <h2 class="text-4xl lg:text-6xl font-bold tracking-tight">Freshness <spna class="text-primary">You
                             Can
                             Count On</spna>, Prices You’ll Love!</h2>
@@ -96,9 +96,10 @@
         </section>
     </header>
 
-    <main class="mt-10 lg:mt-20">
+    <main class="mt-10 space-y-10">
+        <!-- services -->
         <section id="services">
-            <div class="container mx-auto p-3 lg:p-0 space-y-8">
+            <div class="container mx-auto p-3 lg:py-20 space-y-8">
                 <h2 class="text-4xl font-bold tracking-tight text-primary">Services</h2>
                 <div class="flex flex-col sm:flex-row items-center gap-5">
                     <div class="flex flex-col items-center gap-5 p-5 bg-secondary rounded-lg">
@@ -144,6 +145,189 @@
                 </div>
             </div>
 
+        </section>
+
+        <!-- popular products -->
+        <section id="popularProducts" class="bg-secondary">
+            <div class="container mx-auto px-3 py-10 lg:py-20 space-y-5 ">
+                <h2 class="text-primary text-4xl font-bold tracking-tight">Popular Products</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 md:grid-row-5 lg:grid-cols-5 lg:grid-rows-3 gap-5">
+                    <!-- first box -->
+                    <div
+                        class="col-span-2  md:row-span-3 row-span-3 relative bg-gradient-to-tl from-transparent to-primary rounded-lg ">
+                        <div class="absolute top-10 left-10 w-1/2">
+                            <h3 class="text-2xl font-semibold text-white">30% off</h3>
+                            <p class="text-sm my-3">Lorem ipsum dolor sit anim
+                                aperiam et. Aliquam eveniet cum eum quam commodi?</p>
+                            <button class="btn bg-white  font-semibold  hover:bg-white">Buy Now </button>
+                        </div>
+                        <img class="  h-full w-full object-contain" src="c2-assets/vegetable-offer.png" alt="">
+                    </div>
+
+                    <!-- 2nd box -->
+                    <div class="p-3 lg:p-5 flex items-center gap-5 bg-white rounded-lg">
+                        <div class="p-3 bg-secondary rounded-lg basis-[40%]">
+                            <img class="h-full w-full" src="c2-assets/tomato.png" alt="">
+                        </div>
+                        <div class="space-y-1 basis-[60%]">
+                            <p class=" flex items-center gap-2">
+                                <i class="fa-solid fa-star text-orange-500"></i>
+                                <span>4.5</span>
+                            </p>
+                            <h4 class=" xl:text-xl font-bold ">Onion 1 KG</h4>
+                            <p class="text-sm">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- 3rd box  -->
+                    <div class="p-3 lg:p-5 flex items-center gap-5 bg-white rounded-lg">
+                        <div class="p-3 bg-secondary rounded-lg basis-[40%]">
+                            <img class="h-full w-full" src="c2-assets/tomato.png" alt="">
+                        </div>
+                        <div class="space-y-1 basis-[60%]">
+                            <p class=" flex items-center gap-2">
+                                <i class="fa-solid fa-star text-orange-500"></i>
+                                <span>4.5</span>
+                            </p>
+                            <h4 class="xl:text-xl font-bold ">Onion 1 KG</h4>
+                            <p class="text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <!-- 4th box -->
+                    <div class="p-3 lg:p-5 flex items-center gap-5 bg-white rounded-lg">
+                        <div class="p-3 bg-secondary rounded-lg basis-[40%]">
+                            <img class="h-full w-full" src="c2-assets/tomato.png" alt="">
+                        </div>
+                        <div class="space-y-1 basis-[60%]">
+                            <p class=" flex items-center gap-2">
+                                <i class="fa-solid fa-star text-orange-500"></i>
+                                <span>4.5</span>
+                            </p>
+                            <h4 class="xl:text-xl font-bold ">Onion 1 KG</h4>
+                            <p class="text-sm">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- 5th box -->
+                    <div class="p-3 lg:p-5 flex items-center gap-5 bg-white rounded-lg">
+                        <div class="p-3 bg-secondary rounded-lg basis-[40%]">
+                            <img class="h-full w-full" src="c2-assets/tomato.png" alt="">
+                        </div>
+                        <div class="space-y-1 basis-[60%]">
+                            <p class=" flex items-center gap-2">
+                                <i class="fa-solid fa-star text-orange-500"></i>
+                                <span>4.5</span>
+                            </p>
+                            <h4 class="xl:text-xl font-bold ">Onion 1 KG</h4>
+                            <p class="text-sm">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- 6th box -->
+                    <div class="p-3 lg:p-5 flex items-center gap-5 bg-white rounded-lg">
+                        <div class="p-3 bg-secondary rounded-lg basis-[40%]">
+                            <img class="h-full w-full" src="c2-assets/tomato.png" alt="">
+                        </div>
+                        <div class="space-y-1 basis-[60%]">
+                            <p class=" flex items-center gap-2">
+                                <i class="fa-solid fa-star text-orange-500"></i>
+                                <span>4.5</span>
+                            </p>
+                            <h4 class="xl:text-xl font-bold ">Onion 1 KG</h4>
+                            <p class="text-sm">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- 7th box -->
+                    <div class="p-3 lg:p-5 flex items-center gap-5 bg-white rounded-lg">
+                        <div class="p-3 bg-secondary rounded-lg basis-[40%]">
+                            <img class="h-full w-full" src="c2-assets/tomato.png" alt="">
+                        </div>
+                        <div class="space-y-1 basis-[60%]">
+                            <p class=" flex items-center gap-2">
+                                <i class="fa-solid fa-star text-orange-500"></i>
+                                <span>4.5</span>
+                            </p>
+                            <h4 class="xl:text-xl font-bold ">Onion 1 KG</h4>
+                            <p class="text-sm">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- 8th box -->
+                    <div class="p-3 lg:p-5 flex items-center gap-5 bg-white rounded-lg">
+                        <div class="p-3 bg-secondary rounded-lg basis-[40%]">
+                            <img class="h-full w-full" src="c2-assets/tomato.png" alt="">
+                        </div>
+                        <div class="space-y-1 basis-[60%]">
+                            <p class=" flex items-center gap-2">
+                                <i class="fa-solid fa-star text-orange-500"></i>
+                                <span>4.5</span>
+                            </p>
+                            <h4 class="xl:text-xl font-bold ">Onion 1 KG</h4>
+                            <p class="text-sm">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- 9th box -->
+                    <div class="p-3 lg:p-5 flex items-center gap-5 bg-white rounded-lg">
+                        <div class="p-3 bg-secondary rounded-lg basis-[40%]">
+                            <img class="h-full w-full" src="c2-assets/tomato.png" alt="">
+                        </div>
+                        <div class="space-y-1 basis-[60%]">
+                            <p class=" flex items-center gap-2">
+                                <i class="fa-solid fa-star text-orange-500"></i>
+                                <span>4.5</span>
+                            </p>
+                            <h4 class="xl:text-xl font-bold ">Onion 1 KG</h4>
+                            <p class="text-sm">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- 10th box -->
+                    <div class=" hidden p-3 lg:p-5 sm:flex items-center gap-5 bg-white rounded-lg">
+                        <div class="p-3 bg-secondary rounded-lg basis-[40%]">
+                            <img class="h-full w-full" src="c2-assets/tomato.png" alt="">
+                        </div>
+                        <div class="space-y-1 basis-[60%]">
+                            <p class=" flex items-center gap-2">
+                                <i class="fa-solid fa-star text-orange-500"></i>
+                                <span>4.5</span>
+                            </p>
+                            <h4 class="xl:text-xl font-bold ">Onion 1 KG</h4>
+                            <p class="text-sm">$39.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Arrival & Offers -->
+        <section id="offers">
+            <div class="py-20 container mx-auto p-3 lg:px-0">
+                <h2 class="text-4xl font-bold tracking-tighter text-primary">Arrival & Offers</h2>
+                <div class="w-full flex flex-col md:flex-row items-center gap-5 mt-10">
+                    <div class="lg:basis-[60%] flex justify-between items-center bg-[#115414] p-5 rounded-2xl">
+                        <div class=" flex flex-col items-center gap-5 text-center w-1/2">
+                            <img src="c2-assets/dawat-logo.png" alt="">
+                            <button class="btn text-sm sm:text-xl bg-[#63B76D] text-white hover:bg-[#63B76D]">Cook
+                                Exotic Dishes</button>
+                            <h2 class="text-xl lg:text-3xl  text-white">UP to <span class="font-bold">20% OFF</span>
+                            </h2>
+                        </div>
+                        <div class="w-1/2">
+                            <img src="c2-assets/dawat-mock-up.png" alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="lg:basis-[40%] h-full flex justify-between gap-2 sm:gap-0 items-center bg-[#102861] p-5  rounded-2xl">
+                        <div class=" flex flex-col items-center lg:items-start  gap-3 lg:gap-7  w-1/2">
+                            <img src="c2-assets/india-gate-logo.png" alt="">
+                            <button class="btn !text-sm sm:text-xl bg-[#2A4D97] text-white hover:bg-[#2A4D97]">Cook
+                                Exotic Dishes</button>
+                            <h2 class="text-xl lg:text-3xl text-center text-white">UP to <span class="font-bold">20%
+                                    OFF</span>
+                            </h2>
+                        </div>
+                        <div class="w-1/2 flex justify-end">
+                            <img src="c2-assets/india-gate-mock-up.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
