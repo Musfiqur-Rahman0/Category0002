@@ -1,0 +1,44 @@
+
+
+.fadeUp {
+    animation: scaleUp 0.5s linear ;
+    animation-timeline: view(50% 5%);
+}
+@keyframes scaleUp   {
+    0% {
+        transform: scale(0.5);
+    }100% {
+        transform: scale(1);
+    }
+}
+
+
+.card {
+   
+    animation: staggerCards 1s linear;
+    /* animation-delay: calc(var(--position) * 0.2s);   */
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%
+};
+
+
+@keyframes staggerCards {
+    0% {
+        opacity: 0;
+        transform:  scale(0.5)
+    }
+    100% {
+        opacity: 1;
+        transform:  scale(1);
+    }
+}
+
+/* .card:nth-child(1) {
+    animation-delay: 0s;
+}
+.card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.card:nth-child(3) {
+    animation-delay: 0.4s;
+} */
